@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Update Master Driver</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./Navbar.html">
+  <link rel="shortcut icon" href="./favicon.ico">
+  <link rel="shortcut icon" href="./Image/car1.ico">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body style="background-color: white;">
+  <nav class="navbar navbar-expand-lg nav-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="dashboard.html"><img src="image/Turangga.png" width="130px" alt="Turangga"> </a>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <a class="nav-link text-white" style="margin-right: 15px;" href="./dashboard.html"><i class="fa-solid fa-arrow-left"></i> Back To Dashboard</a>
+          <li class="nav-item dropstart">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Profile
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./changepass.html">Change Password</a></li>
+              <li><a class="dropdown-item" href="./update.html">Update Profile</a></li>
+              <li><a class="dropdown-item" href="./gsapp.html">Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+        <img src="Image/profile.png" width="60px" alt="Gambar Profile" class="img-fluid navbar-brand" />
+      </div>
+    </div>
+  </nav>
+  <br>
+  <br>
+  <section>
+    <div class="container bg-steel col-lg-6">
+      <div class="row">
+        <form>
+          <img src="./Image/profile.png" class="col-md-3 rounded-float-end" alt="Profile">
+          <div class="row mb-2 mt-3">
+            <div class="form-outline">
+              <div class="col-10" style="margin-left:20px;">
+                <h3 class="control-label"><strong>Kristina Apriliani (krsvtae)</strong></h3>
+              </div>
+            </div>
+            <div class="row mb-2">
+              <div class="form-outline">
+                <div class="col-10" style="margin-left:20px; color: grey;">
+                  <h6 class="control-label">kristinaapriliani.ka@gmail.com</h6>
+                </div>
+              </div>
+            </div>
+              <div class="row mb-2 mt-2">
+                <div class="form-outline">
+                  <div class="col-10" style="margin-left:20px;">
+                    <label class="form-label" for="form7Example1">Username*</label>
+                    <input type="text" id="form7Example1" class="form-control" />
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-2">
+                <div class="col-10" style="margin-left:20px; color: grey;">
+                  <h6 class="control-label">Required. 150 characters or fewer. Letters, digits and @!/.?</h6>
+                </div>
+              </div>
+              <div class="row mb-3 mt-3">
+                <div class="form-outline">
+                  <div class="col-10" style="margin-left:20px;">
+                    <label class="form-label" for="form7Example1">First Name :</label>
+                    <input type="text" id="form7Example1" class="form-control" />
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="form-outline">
+                  <div class="col-10" style="margin-left:20px;">
+                    <label class="form-label" for="form7Example1">Last Name :</label>
+                    <input type="text" id="form7Example1" class="form-control" />
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="form-outline">
+                  <div class="col-10" style="margin-left:20px;">
+                    <label for="Email" class=" form-label">Email :</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="form-outline">
+                  <div class="col-10" style="margin-left:20px;">
+                    <label for="exampleFormControlInput3" class="form-label">Mobile
+                      Number : </label>
+                    <input type="tel" class="form-control" id="exampleFormControlInput3" maxlength="12"
+                      pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-4">
+                <div class="form-outline">
+                  <div class="col-10" style="margin-left:20px;">
+                    <label class="form-label" for="form7Example1">Department :</label>
+                    <input type="text" id="form7Example3" class="form-control" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-10" style="margin-left:20px;">
+                <h6 class="control-label">Photo</h6>
+              </div>
+              <div class="row mb-3">
+                <div class="col-10" style="margin-left:20px;">
+                  <div class="input-group mb-3">
+                    <label class="input-group-text" for="inputGroupFile01">Currenly</label>
+                    <label type="file" class="form-control" id="inputGroupFile01" style="text-align: right;"> <a
+                        href="#!" style="margin-right: 290px;"> Users/user.org</a>
+                      <input type="checkbox" id="Clear" value="Clear"> <label for="Clear">Clear</label>
+                  </div>
+                  <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04"
+                    aria-label="Upload">
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-10" style="margin-left:20px;">
+                  <div class="gap-3 d-md-flex">
+                    <a class="btn btn-primary mb-5" type="button" href="./dashboard.html"><i
+                        class="fa-regular fa-circle-check"></i> Update Profile</a>
+                    <a class="btn btn-danger mb-5" type="button" href=""><i
+                        class="fa-regular fa-circle-xmark"></i> Cancel</a>
+                  </div>
+                </div>
+              </div>
+        </form>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
